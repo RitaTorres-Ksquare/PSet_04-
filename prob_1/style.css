@@ -1,0 +1,153 @@
+body {
+  display: flex;
+  background-color: #0e0e0e;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.card {
+  margin: 10px;
+}
+.section1 {
+  background-color: rgb(47, 34, 122);
+  width: 50px;
+  padding-right: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  height: 140px;
+}
+.white {
+  font-size: 8px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: white;
+}
+.no-white {
+  font-size: 5px;
+  margin-left: 10px;
+  color: white;
+}
+img {
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.sub-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10px;
+}
+
+.sub-main h3 {
+  font-size: 5px;
+  color: white;
+}
+.sub-body {
+  display: flex;
+  align-items: center;
+  margin: 0px 0px 0px 10px;
+  padding: 0px;
+  height: 20px;
+}
+
+.sub-body h1 {
+  height: 10px;
+  color: white;
+}
+.sub-footer {
+  display: flex;
+  align-items: center;
+  height: 10px;
+}
+
+.sub-footer h3 {
+  font-size: 5px;
+  color: white;
+}
+
+.title {
+  font-size: 10px;
+  color: white;
+}
+
+.points {
+  font-size: 10px;
+}
+
+.name1 {
+  background-color: #5746ea;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 100%;
+  color: white;
+}
+
+.name1 h1 {
+  font-size: 10px;
+  color: white;
+}
+
+
+.section1 .name1 h3 {
+  font-size: 5px;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+
+.section1 h1 {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.container {
+  width: 52.3px;
+  height: 43px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: #1d204b;
+}
+.work,
+.play, .study,.exercise, .social, .self-care {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-right: 20px; 
+  background-position: right top;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.work {
+  background-color: #fb8a63;
+  background-image: url("assets/portafolio.png");
+ 
+}
+
+.play {
+  background-color: #56c2e6;
+  background-image: url("assets/game.png");
+}
+
+.study {
+  background-color: #ff5e7d;
+  background-image: url("assets/book.png");
+}
+
+.exercise {
+  background-color: #4bcf83;
+  background-image: url("assets/exercise.png");
+}
+
+.social {
+  background-color: #7234d2;
+  background-image: url("assets/social.png");
+}
+.self-care {
+  background-color: #f1c75b;
+  background-image: url("assets/selfcare.png");
+}
